@@ -13,9 +13,7 @@ class AlgoRunner {
     enum Problems {
         case twoNumberSum
         case validSubSequence
-        
-        
-        
+        case sortedSquaredArray
         
         
         
@@ -31,10 +29,11 @@ class AlgoRunner {
                 let array = [5, 1, 22, 25, 6, -1, 8, 10]
                 let sequence = [5, 1, 22, 25, 6, -1, 8, 10]
                 return (array, sequence)
+                
+            case .sortedSquaredArray:
+                let array = [1, 2, 3, 5, 6, 8, 9]
+                return array
             }
-            
-            
-            
         }
     }
     
@@ -72,6 +71,14 @@ class AlgoRunner {
                 let sequence = params.1
                 
                 print(program.isValidSubsequence(array, sequence))
+            }
+            
+        case .sortedSquaredArray:
+            let program = SortedSquaredArray()
+            if let array = params as? [Int] {
+                print(program.sortedSquaredArray(array))
+            } else if let array = problem.params() as? [Int] {
+                print(program.sortedSquaredArray(array))
             }
         }
         
