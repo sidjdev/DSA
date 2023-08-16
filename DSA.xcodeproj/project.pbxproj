@@ -16,6 +16,8 @@
 		B12BE9002A8CBC8800C496A0 /* TwoNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE8FF2A8CBC8800C496A0 /* TwoNumberTests.swift */; };
 		B12BE9022A8CC13600C496A0 /* ValidateSubSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */; };
 		B12BE9042A8CC17000C496A0 /* ValidateSubSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */; };
+		B12BE9062A8CD53200C496A0 /* SortedSquaredArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9052A8CD53200C496A0 /* SortedSquaredArray.swift */; };
+		B12BE9082A8CD55100C496A0 /* SortedSquaredArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9072A8CD55100C496A0 /* SortedSquaredArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		B12BE8FF2A8CBC8800C496A0 /* TwoNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumberTests.swift; sourceTree = "<group>"; };
 		B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateSubSequence.swift; sourceTree = "<group>"; };
 		B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateSubSequenceTests.swift; sourceTree = "<group>"; };
+		B12BE9052A8CD53200C496A0 /* SortedSquaredArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedSquaredArray.swift; sourceTree = "<group>"; };
+		B12BE9072A8CD55100C496A0 /* SortedSquaredArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedSquaredArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			children = (
 				B12BE8EE2A8CB88300C496A0 /* TwoNumberSum.swift */,
 				B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */,
+				B12BE9052A8CD53200C496A0 /* SortedSquaredArray.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			children = (
 				B12BE8FF2A8CBC8800C496A0 /* TwoNumberTests.swift */,
 				B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */,
+				B12BE9072A8CD55100C496A0 /* SortedSquaredArrayTests.swift */,
 			);
 			path = DSATests;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				B12BE8EF2A8CB88300C496A0 /* TwoNumberSum.swift in Sources */,
 				B12BE9022A8CC13600C496A0 /* ValidateSubSequence.swift in Sources */,
 				B12BE8D12A8C8D7C00C496A0 /* ContentView.swift in Sources */,
+				B12BE9062A8CD53200C496A0 /* SortedSquaredArray.swift in Sources */,
 				B12BE8CF2A8C8D7C00C496A0 /* DSAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12BE9002A8CBC8800C496A0 /* TwoNumberTests.swift in Sources */,
+				B12BE9082A8CD55100C496A0 /* SortedSquaredArrayTests.swift in Sources */,
 				B12BE9042A8CC17000C496A0 /* ValidateSubSequenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
