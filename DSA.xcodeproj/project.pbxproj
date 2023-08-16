@@ -14,6 +14,8 @@
 		B12BE8DF2A8C9ED100C496A0 /* AlgoRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE8DE2A8C9ED100C496A0 /* AlgoRunner.swift */; };
 		B12BE8EF2A8CB88300C496A0 /* TwoNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE8EE2A8CB88300C496A0 /* TwoNumberSum.swift */; };
 		B12BE9002A8CBC8800C496A0 /* TwoNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE8FF2A8CBC8800C496A0 /* TwoNumberTests.swift */; };
+		B12BE9022A8CC13600C496A0 /* ValidateSubSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */; };
+		B12BE9042A8CC17000C496A0 /* ValidateSubSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B12BE8EE2A8CB88300C496A0 /* TwoNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumberSum.swift; sourceTree = "<group>"; };
 		B12BE8F62A8CBA9A00C496A0 /* DSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12BE8FF2A8CBC8800C496A0 /* TwoNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumberTests.swift; sourceTree = "<group>"; };
+		B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateSubSequence.swift; sourceTree = "<group>"; };
+		B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateSubSequenceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				B12BE8EE2A8CB88300C496A0 /* TwoNumberSum.swift */,
+				B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B12BE8FF2A8CBC8800C496A0 /* TwoNumberTests.swift */,
+				B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */,
 			);
 			path = DSATests;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			files = (
 				B12BE8DF2A8C9ED100C496A0 /* AlgoRunner.swift in Sources */,
 				B12BE8EF2A8CB88300C496A0 /* TwoNumberSum.swift in Sources */,
+				B12BE9022A8CC13600C496A0 /* ValidateSubSequence.swift in Sources */,
 				B12BE8D12A8C8D7C00C496A0 /* ContentView.swift in Sources */,
 				B12BE8CF2A8C8D7C00C496A0 /* DSAApp.swift in Sources */,
 			);
@@ -223,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12BE9002A8CBC8800C496A0 /* TwoNumberTests.swift in Sources */,
+				B12BE9042A8CC17000C496A0 /* ValidateSubSequenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
