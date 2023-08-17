@@ -14,7 +14,7 @@ class AlgoRunner {
         case twoNumberSum
         case validSubSequence
         case sortedSquaredArray
-        
+        case tournamentWinners
         
         
         func params() -> Any {
@@ -33,6 +33,16 @@ class AlgoRunner {
             case .sortedSquaredArray:
                 let array = [1, 2, 3, 5, 6, 8, 9]
                 return array
+                
+            case .tournamentWinners:
+                let competitions =  [
+                    ["HTML", "C#"],
+                    ["C#", "Python"],
+                    ["Python", "HTML"]
+                  ]
+                let results = [0, 0, 1]
+                
+                return (competitions, results)
             }
         }
     }
@@ -79,6 +89,21 @@ class AlgoRunner {
                 print(program.sortedSquaredArray(array))
             } else if let array = problem.params() as? [Int] {
                 print(program.sortedSquaredArray(array))
+            }
+            
+        case .tournamentWinners:
+            let program = TournamentWinner()
+            
+            if let params = params as? ([[String]], [Int]) {
+                let competitions = params.0
+                let results = params.1
+                
+                print(program.tournamentWinner(competitions, results))
+            } else if let params = problem.params() as? ([[String]], [Int]) {
+                let competitions = params.0
+                let results = params.1
+                
+                print(program.tournamentWinner(competitions, results))
             }
         }
         
