@@ -19,7 +19,7 @@ struct ContentView: View {
         .padding()
         .onAppear {
             let runner = AlgoRunner()
-            runner.runAlgorithm(.sortedSquaredArray)
+            runner.runAlgorithm(.tournamentWinners)
         }
     }
 }
