@@ -20,6 +20,8 @@
 		B12BE9082A8CD55100C496A0 /* SortedSquaredArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9072A8CD55100C496A0 /* SortedSquaredArrayTests.swift */; };
 		B12BE90A2A8DECB100C496A0 /* TournamentWinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE9092A8DECB100C496A0 /* TournamentWinner.swift */; };
 		B12BE90C2A8DECC000C496A0 /* TournamentWinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE90B2A8DECC000C496A0 /* TournamentWinnerTests.swift */; };
+		B12BE90E2A92492E00C496A0 /* TransposeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE90D2A92492E00C496A0 /* TransposeMatrix.swift */; };
+		B12BE9102A92493A00C496A0 /* TransposeMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BE90F2A92493A00C496A0 /* TransposeMatrixTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B12BE9072A8CD55100C496A0 /* SortedSquaredArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedSquaredArrayTests.swift; sourceTree = "<group>"; };
 		B12BE9092A8DECB100C496A0 /* TournamentWinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentWinner.swift; sourceTree = "<group>"; };
 		B12BE90B2A8DECC000C496A0 /* TournamentWinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentWinnerTests.swift; sourceTree = "<group>"; };
+		B12BE90D2A92492E00C496A0 /* TransposeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeMatrix.swift; sourceTree = "<group>"; };
+		B12BE90F2A92493A00C496A0 /* TransposeMatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeMatrixTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				B12BE9012A8CC13600C496A0 /* ValidateSubSequence.swift */,
 				B12BE9052A8CD53200C496A0 /* SortedSquaredArray.swift */,
 				B12BE9092A8DECB100C496A0 /* TournamentWinner.swift */,
+				B12BE90D2A92492E00C496A0 /* TransposeMatrix.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 				B12BE9032A8CC16F00C496A0 /* ValidateSubSequenceTests.swift */,
 				B12BE9072A8CD55100C496A0 /* SortedSquaredArrayTests.swift */,
 				B12BE90B2A8DECC000C496A0 /* TournamentWinnerTests.swift */,
+				B12BE90F2A92493A00C496A0 /* TransposeMatrixTests.swift */,
 			);
 			path = DSATests;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 				B12BE8EF2A8CB88300C496A0 /* TwoNumberSum.swift in Sources */,
 				B12BE9022A8CC13600C496A0 /* ValidateSubSequence.swift in Sources */,
 				B12BE90A2A8DECB100C496A0 /* TournamentWinner.swift in Sources */,
+				B12BE90E2A92492E00C496A0 /* TransposeMatrix.swift in Sources */,
 				B12BE8D12A8C8D7C00C496A0 /* ContentView.swift in Sources */,
 				B12BE9062A8CD53200C496A0 /* SortedSquaredArray.swift in Sources */,
 				B12BE8CF2A8C8D7C00C496A0 /* DSAApp.swift in Sources */,
@@ -243,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12BE9102A92493A00C496A0 /* TransposeMatrixTests.swift in Sources */,
 				B12BE9002A8CBC8800C496A0 /* TwoNumberTests.swift in Sources */,
 				B12BE90C2A8DECC000C496A0 /* TournamentWinnerTests.swift in Sources */,
 				B12BE9082A8CD55100C496A0 /* SortedSquaredArrayTests.swift in Sources */,

@@ -15,7 +15,7 @@ class AlgoRunner {
         case validSubSequence
         case sortedSquaredArray
         case tournamentWinners
-        
+        case transposeMatrix
         
         func params() -> Any {
             switch self {
@@ -39,10 +39,15 @@ class AlgoRunner {
                     ["HTML", "C#"],
                     ["C#", "Python"],
                     ["Python", "HTML"]
-                  ]
+                ]
                 let results = [0, 0, 1]
                 
                 return (competitions, results)
+            case .transposeMatrix:
+                let matrix = [[1, 2, 3],
+                              [4, 5, 6]]
+                return matrix
+                
             }
         }
     }
@@ -104,6 +109,15 @@ class AlgoRunner {
                 let results = params.1
                 
                 print(program.tournamentWinner(competitions, results))
+            }
+        case .transposeMatrix:
+            let program = TransposeMatrix()
+            if let params = params as? [[Int]] {
+                let matrix = params
+                print(program.transposeMatrix(matrix))
+            } else if let params = problem.params() as? [[Int]] {
+                let matrix = params
+                print(program.transposeMatrix(matrix))
             }
         }
         
